@@ -14,62 +14,86 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <header class="row">
-      <div class="col-md-3">
-        <div>
+      <div class="col-md-12">
+        <div class="header-pic d-flex justify-content-center align-items-center">
           <h1>Styl.us</h1>
           <p>Turn you pen into your best friend <br /> Make every line you write count..</p>
           <button type="button" class="btn btn-primary">GET YOUR STYLUS</button>
         </div>
       </div>
     </header>
-    <section class="row features">
-      <div class="col-md-3">
-        <h1 class="feature-head">Natural writing</h1>
-        <p class="feature-description">Don't change your habits, write with a pen <span>on paper notebooks</span></p>
+
+    <section class="row features text-center justify-content-center align-items-center">
+      <div class="col-md-2">
+        <i class="fas fa-edit fa-5x feature-icon"></i>
+        <h6 class="feature-head">Natural writing</h6>
+        <p class="feature-description">Don't change your habits, write with a pen <span class="bigger">on paper
+            notebooks</span></p>
       </div>
-      <div class="col-md-3">
-        <h1 class="feature-head">Sync. copy</h1>
-        <p class="feature-description">Stylus instantaneously copies your text on your computer, <span>in real-time</span></p>
+      <div class="col-md-2">
+        <i class="far fa-list-alt fa-5x feature-icon"></i>
+        <h6 class="feature-head">Sync. copy</h6>
+        <p class="feature-description">Stylus instantaneously copies your text on your computer, <span class="bigger">in
+            real-time</span></p>
       </div>
-      <div class="col-md-3">
-        <h1 class="feature-head">Analytics</h1>
-        <p class="feature-description">Get feedback on the way you write, <span>your favorite words, your frequent
+      <div class="col-md-2">
+        <i class="fas fa-align-left fa-5x feature-icon"></i>
+        <h6 class="feature-head">Analytics</h6>
+        <p class="feature-description">Get feedback on the way you write, <span class="bigger">your favorite words,
+            your frequent
             mistakes</span></p>
       </div>
-      <div class="col-md-3">
-        <h1 class="feature-head">Storing your texts</h1>
-        <p class="feature-description">Every line written with your stylus is stored in the cloud, so that <span>it's
+      <div class="col-md-2">
+        <i class="fas fa-cloud-upload-alt fa-5x feature-icon"></i>
+        <h6 class="feature-head">Storing your texts</h6>
+        <p class="feature-description">Every line written with your stylus is stored in the cloud, so that <span class="bigger">it's
             never lost</span></p>
       </div>
     </section>
-    <section class="row news">
-      <div class="col-md-12">
-        <h1>Get news from stylus</h1>
-        <p>Leave us your email and get stylus news</p>
-        <input class="email-box" type="text" placeholder="bob@gmail.com">
-        <button type="button" class="btn btn-primary">Subscribe</button>
-        <div></div>
 
+    <section class="row">
+      <div class="col-md-12">
+        <div class="news  d-flex text-center justify-content-center align-items-center flex-column">
+          <h2 class="news-head">Get news from stylus</h2>
+          <p>Leave us your email and get stylus news</p>
+          <div class="email-button">
+            <input class="email-box" type="text" placeholder="bob@gmail.com">
+            <button type="button" class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
       </div>
     </section>
     <section class="row map">
       <div class="col-md-12">
-        <img class="fluid" src="//placehold.it/1200x400" alt="">
+        <div class="phone-photo d-flex justify-content-beginning align-items-end flex-column">
+          <h1>Want some more??</h1>
+          <p>Styl.us is capable of more than you can imagine</p>
+          <button type="button" class="btn btn-primary">SEE IT IN ACTION</button>
+
+        </div>
       </div>
     </section>
+
     <footer class="row">
-      <div class="col-md-6">
-        <i class="fab fa-youtube icon"></i>
-        <i class="fab fa-instagram icon"></i>
-        <i class="fab fa-facebook-f icon"></i>
-        <i class="fab fa-twitter icon"></i>
-      </div>
-      <div class="col-md-6">
-        <p>Stylus is a fictive product by LeWagon</p>
+      <div class="col-md-12">
+        <div class="foot">
+          <div class="row d-flex text-center justify-content-center align-items-center">
+            <div class="col-md-6">
+              <i class="fab fa-youtube icon fa-2x p-4 footer-icons"></i>
+              <i class="fab fa-instagram icon fa-2x p-4 footer-icons"></i>
+              <i class="fab fa-facebook-f icon fa-2x p-4 footer-icons"></i>
+              <i class="fab fa-twitter icon fa-2x p-4 footer-icons"></i>
+            </div>
+            <div class="col-md-6">
+              <p class="disclaimer">Stylus is a fictive product by LeWagon</p>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
+
   </div>
 
 </body>

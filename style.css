@@ -1,0 +1,53 @@
+.header-pic {
+  background-image: url(kelly-sikkema-685287-unsplash.jpg);
+  background-size: cover;
+  background-position: center 35%;
+  height: 50vh;
+  flex-direction: column;
+}
+
+.features {
+background:#4655c9;
+height: 30vh;
+color: white;
+}
+.feature-icon {
+  color: #e1e1e1;
+}
+
+.feature-head {
+  padding-top: 2vh;
+  font-weight: 700;
+}
+
+.bigger {
+  font-weight: 650;
+}
+
+.news {
+  height: 20vh;
+}
+
+.news-head {
+  font-weight: 450;
+}
+
+.phone-photo {
+  background-image: url(rawpixel-668176-unsplash.jpg); 
+  background-size: cover;
+  background-position: center 98%;
+  height: 70vh;
+}
+
+.foot {
+  background: black;
+  height: 10vh;
+}
+
+.footer-icons {
+color: white;
+}
+
+.disclaimer {
+  color: white;
+}
